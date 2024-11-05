@@ -19,10 +19,10 @@ else:
 print("Agora, insira um número para selecionar um equipamento, 1 para curto alcance e 2 para longo")
 numero2 = int(input(""))
 if(numero2==1):
-        print(f"O numero {numero2} pertence ao equipamento de curto alcance")
+        print(f"O numero {numero2} \n pertence ao equipamento de curto alcance")
         equipamento = "curto alcance"
 elif(numero2==2):
-        print(f"O numero {numero2} pertence ao equipamento de longo alcance")
+        print(f"O numero {numero2} \n pertence ao equipamento de longo alcance")
         equipamento = "longo alcance"
 else:
         print("Equipamento inválido")
@@ -31,4 +31,4 @@ else:
 if classe == "inválida" or equipamento == "inválido":
         print("Classe ou equipamento inválido, tente novamente!")
 else:
-        print(f"Você selecionou a classe {classe} e o equipamento de {equipamento}")
+        print(f"Você selecionou a classe {classe} \n e o equipamento de {equipamento}\n")
